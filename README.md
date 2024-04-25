@@ -1,4 +1,4 @@
-﻿# Задача 1. Пакування товарів
+# Задача 1. Пакування товарів
 
 Напиши функцію `isEnoughCapacity(products, containerSize)`, яка обчислює, чи помістяться всі товари в контейнер при пакуванні.
 
@@ -79,10 +79,6 @@ const profile = {
 * Метод `getInfo()` має повертати рядок формату `<Username>` has `<amount>` active hours!, де `<Username>` — це ім’я профілю, а `<amount>` — кількість ігрових годин.
 
 ```
-console.log(profile.getInfo()); // "Jacob has 300 active hours!"
-
-profile.changeUsername("Marco");
-console.log(profile.getInfo()); // "Marco has 300 active hours!"
 
 profile.updatePlayTime(20);
 console.log(profile.getInfo()); // "Marco has 320 active hours!"
